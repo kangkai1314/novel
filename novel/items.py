@@ -28,4 +28,10 @@ class QuoteItem(scrapy.Item):
     tags=scrapy.Field()
 
 
+class GithubItem(scrapy.Item):
+    language=scrapy.Field()
+    name=scrapy.Field()
+    desc=scrapy.Field()
+
+
 
