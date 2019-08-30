@@ -21,10 +21,20 @@ class NovelPipeline(object):
 
 
 from scrapy.pipelines.images import ImagesPipeline
-
+import pymongo
 class NovelPicPipeLine(ImagesPipeline):
     def get_media_requests(self, item, info):
         yield Request(item['img_url'])
+
+
+from scrapy.conf import settings
+class MongoPipeLine(object):
+    def __init__(self):
+        host=settings['MONGODB_HOST']
+        port=settings['MONGODB_PORT']
+        dbname=settings['MONGODB_DB']
+        client=pymongo.MongoClient(host=host,port=port)
+        db=client[dbname]
 
 
 
