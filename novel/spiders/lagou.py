@@ -9,11 +9,15 @@ class LagouSpider(scrapy.Spider):
 
     def parse(self, response):
         print(response)
+        with open('a.html','w') as f:
+            f.write(response.body)
+        x=''
         po=response.css('title::text').extract_first()
         print (po)
+        b=response.xpath('//li[@class="con_list_item first_row default_list"]')
+        print (b)
 
-        subs=response.xpath('//ul[@class="item_con_list"]/li[0]')
-        print (subs)
-        for s in subs:
-            print (s)
+
+
+
 
