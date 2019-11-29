@@ -21,9 +21,12 @@ class NovelPipeline(object):
 
 
 class JiPiaoPipeLines(object):
-    def process_items(self,item,spider):
-        with open('jiPiao.txt','a') as f:
-            f.write(item['title'])
+    def process_item(self,item,spider):
+        print(item['title'])
+        with open('jiPiao.txt','w') as f:
+            f.write(item['title'][0].encode('utf-8'))
+            for i in item['price']:
+                f.write(i.encode('utf-8'))
         return item
 
 
