@@ -33,5 +33,10 @@ class GithubItem(scrapy.Item):
     name=scrapy.Field()
     desc=scrapy.Field()
 
+class JiPiaoItem(scrapy.Item):
+    price=scrapy.Field()
+    date=scrapy.Field()
+    title=scrapy.Field()
+
 
 

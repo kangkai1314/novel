@@ -20,6 +20,13 @@ class NovelPipeline(object):
         return item
 
 
+class JiPiaoPipeLines(object):
+    def process_items(self,item,spider):
+        with open('jiPiao.txt','a') as f:
+            f.write(item['title'])
+        return item
+
+
 from scrapy.pipelines.images import ImagesPipeline
 import pymongo
 class NovelPicPipeLine(ImagesPipeline):

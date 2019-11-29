@@ -66,7 +66,7 @@ DEFAULT_REQUEST_HEADERS = {
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-    #'novel.pipelines.NovelPicPipeLine':300
+    'novel.pipelines.JiPiaoPipeLines':300
 }
 IMAGES_STORE = 'D:\ImageSpider'
 
