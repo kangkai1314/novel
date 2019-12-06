@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1c31110-fa4f-4fc8-82ee-a33032c9debe" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/novel/util.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/novel/agents.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/novel/proxy.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jiPiao.txt" afterPath="$PROJECT_DIR$/jiPiao.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/novel/spiders/jiPiao.py" afterPath="$PROJECT_DIR$/novel/spiders/jiPiao.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a.html" afterPath="$PROJECT_DIR$/a.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jiPiao.html" afterPath="$PROJECT_DIR$/jiPiao.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/novel/items.py" afterPath="$PROJECT_DIR$/novel/items.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/novel/middlewares.py" afterPath="$PROJECT_DIR$/novel/middlewares.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/novel/pipelines.py" afterPath="$PROJECT_DIR$/novel/pipelines.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/novel/settings.py" afterPath="$PROJECT_DIR$/novel/settings.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,8 +30,8 @@
       <file leaf-file-name="pipelines.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/novel/pipelines.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <state relative-caret-position="988">
+              <caret line="64" column="52" lean-forward="false" selection-start-line="64" selection-start-column="52" selection-end-line="64" selection-end-column="52" />
               <folding>
                 <element signature="e#193#202#0" expanded="true" />
               </folding>
@@ -34,32 +39,45 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="zhihu.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/novel/spiders/zhihu.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="proxy.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/novel/proxy.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="agents.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/novel/agents.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1596">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="middlewares.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/novel/middlewares.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="util.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/novel/util.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jiPiao.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jiPiao.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="39" lean-forward="false" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
-              <folding />
+            <state relative-caret-position="285">
+              <caret line="158" column="0" lean-forward="false" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
+              <folding>
+                <element signature="e#239#1901#0" expanded="false" />
+                <element signature="e#1949#3592#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -67,213 +85,10 @@
       <file leaf-file-name="jiPiao.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/novel/spiders/jiPiao.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6">
-              <caret line="13" column="271" lean-forward="false" selection-start-line="13" selection-start-column="271" selection-end-line="13" selection-end-column="271" />
+            <state relative-caret-position="369">
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding>
                 <element signature="e#24#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="xiecheng.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xiecheng.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1575018176582" expanded="true" signature="32486:32517" ph="..." />
-                <marker date="1575018176582" expanded="true" signature="32518:32526" ph="·" />
-                <marker date="1575018176582" expanded="true" signature="32554:32585" ph="..." />
-                <marker date="1575018176582" expanded="true" signature="32586:32594" ph="·" />
-                <marker date="1575018176582" expanded="true" signature="32628:32659" ph="..." />
-                <marker date="1575018176582" expanded="true" signature="32660:32668" ph="·" />
-                <marker date="1575018176582" expanded="true" signature="32695:32701" ph=" " />
-                <marker date="1575018176582" expanded="true" signature="40547:40566" ph="..." />
-                <marker date="1575018176582" expanded="true" signature="40958:40977" ph="..." />
-                <marker date="1575018176582" expanded="true" signature="41119:41124" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="41176:41181" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="41233:41238" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="41291:41296" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="41348:41353" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="41406:41411" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="41463:41468" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="41521:41526" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="41578:41583" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="41636:41641" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="42151:42156" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="42230:42235" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="42318:42323" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="42377:42382" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="42572:42577" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="42890:42895" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="42914:42919" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="42999:43004" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="43243:43248" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="43376:43381" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="43425:43430" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="43512:43517" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="43561:43566" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="43701:43706" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="43783:43788" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="43865:43870" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="43918:43923" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="43983:43988" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="44087:44092" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="44152:44157" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="44256:44261" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="44322:44327" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="44419:44424" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="44469:44474" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="44557:44562" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="44606:44611" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="44693:44698" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="44742:44747" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="44830:44835" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="44880:44885" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="44969:44974" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="45018:45023" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="45106:45111" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="45155:45160" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="45243:45248" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="45293:45298" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="45382:45387" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="45431:45436" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="45519:45524" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="45569:45574" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="45658:45663" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="45707:45712" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="45795:45800" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="45845:45850" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="45929:45934" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="46257:46262" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="46327:46332" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="46453:46458" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="46556:46561" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="46626:46631" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="46728:46733" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="46795:46800" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="47066:47071" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="47115:47120" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="47201:47206" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="47251:47256" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="47339:47344" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="47388:47393" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="47476:47481" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="47525:47530" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="47613:47618" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="47694:47699" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="47735:47740" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="47759:47764" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="47904:47909" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="47916:47921" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="47968:48003" ph="..." />
-                <marker date="1575018176582" expanded="true" signature="48054:48085" ph="..." />
-                <marker date="1575018176582" expanded="true" signature="48103:48115" ph="..." />
-                <marker date="1575018176582" expanded="true" signature="51137:51142" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="51172:51177" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="51256:51261" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="51294:51299" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="52672:52677" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="54008:54013" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="55246:55251" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="56496:56501" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="57748:57753" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="58784:58789" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="59705:59710" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="60869:60874" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="62111:62116" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="126765:126770" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="126818:126823" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="126857:126862" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="126966:126971" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="127019:127024" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="127058:127063" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="127166:127171" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="127218:127223" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="127260:127265" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="127534:127539" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="127608:127613" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="127764:127769" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="127817:127822" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="127856:127861" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="127957:127962" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="128116:128121" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="128160:128165" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="128221:128226" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="128967:128972" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="129010:129015" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="129034:129039" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="129148:129153" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="129192:129197" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="129242:129247" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="129300:129305" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="129369:129374" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="129518:129523" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="129541:129546" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="129632:129637" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="129668:129673" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="129728:129733" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="129818:129823" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="129880:129885" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="130034:130039" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="130078:130083" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="130128:130133" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="130187:130192" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="130232:130237" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="130282:130287" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="130345:130350" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="130398:130403" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="130475:130480" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="130528:130533" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="130603:130608" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="130705:130710" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="130809:130814" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="130853:130858" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="130903:130908" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="130963:130968" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="131077:131082" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="131183:131188" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="131713:131718" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="131829:131834" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="131902:131907" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="132291:132296" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="132338:132343" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="132438:132443" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="132485:132490" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="132585:132590" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="132631:132636" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="132814:132819" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="132860:132865" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="132951:132956" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="132997:133002" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="133283:133288" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="133327:133332" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="133377:133382" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="133438:133443" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="133728:133733" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="133883:133888" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="133962:133967" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="134022:134027" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="134066:134071" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="134116:134121" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="134176:134181" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="134220:134225" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="134270:134275" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="134330:134335" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="134374:134379" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="134424:134429" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="134588:134593" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="134634:134639" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="134737:134742" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="134884:134889" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="134963:134968" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="135021:135026" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="135065:135070" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="135171:135176" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="158600:158605" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="165913:165918" ph="¥" />
-                <marker date="1575018176582" expanded="true" signature="166286:166291" ph="¥" />
               </folding>
             </state>
           </provider>
@@ -282,10 +97,10 @@
       <file leaf-file-name="jiPiao.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jiPiao.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="1192" column="13" lean-forward="true" selection-start-line="1192" selection-start-column="13" selection-end-line="1192" selection-end-column="13" />
+            <state relative-caret-position="297">
+              <caret line="1161" column="23" lean-forward="true" selection-start-line="1161" selection-start-column="23" selection-end-line="1161" selection-end-column="23" />
               <folding>
-                <marker date="1575276331053" expanded="true" signature="4499:4504" ph="¥" />
+                <marker date="1575447989370" expanded="true" signature="4499:4504" ph="¥" />
               </folding>
             </state>
           </provider>
@@ -295,18 +110,10 @@
         <entry file="file://$PROJECT_DIR$/novel/items.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="608">
-              <caret line="38" column="23" lean-forward="false" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="item.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/item.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-              <folding />
+              <caret line="59" column="18" lean-forward="false" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
+              <folding>
+                <element signature="e#153#166#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -314,8 +121,18 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/novel/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1292">
-              <caret line="68" column="23" lean-forward="false" selection-start-line="68" selection-start-column="23" selection-end-line="68" selection-end-column="23" />
+            <state relative-caret-position="43">
+              <caret line="47" column="31" lean-forward="false" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lagou.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/novel/spiders/lagou.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="4" column="31" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -350,11 +167,13 @@
         <option value="$PROJECT_DIR$/novel/spiders/novelcrawler.py" />
         <option value="$PROJECT_DIR$/novel/spiders/testSpider.py" />
         <option value="$PROJECT_DIR$/novel/spiders/lagou.py" />
-        <option value="$PROJECT_DIR$/novel/settings.py" />
-        <option value="$PROJECT_DIR$/novel/items.py" />
-        <option value="$PROJECT_DIR$/novel/pipelines.py" />
         <option value="$PROJECT_DIR$/novel/util.py" />
         <option value="$PROJECT_DIR$/novel/spiders/jiPiao.py" />
+        <option value="$PROJECT_DIR$/novel/items.py" />
+        <option value="$PROJECT_DIR$/novel/pipelines.py" />
+        <option value="$PROJECT_DIR$/novel/spiders/zhihu.py" />
+        <option value="$PROJECT_DIR$/novel/middlewares.py" />
+        <option value="$PROJECT_DIR$/novel/settings.py" />
       </list>
     </option>
   </component>
@@ -386,6 +205,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -433,7 +253,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -451,6 +270,11 @@
         <option name="myUseModuleSdk" value="true" />
       </console-settings>
     </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\scrapyprojects\novel\novel" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -700,7 +524,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21406959" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21709532" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -708,7 +532,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3927987" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5139116" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -753,27 +577,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/novel/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1311">
-          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/novel/spiders/novelcrawler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="26" column="32" lean-forward="false" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/novel/spiders/novelSpider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kk.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -970,24 +773,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/novel/spiders/testSpider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/novel/spiders/novelcrawler.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="22" column="56" lean-forward="false" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/novel/spiders/lagou.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-95">
-          <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -1056,215 +845,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/novel/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1292">
-          <caret line="68" column="23" lean-forward="false" selection-start-line="68" selection-start-column="23" selection-end-line="68" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiecheng.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1575018176582" expanded="true" signature="32486:32517" ph="..." />
-            <marker date="1575018176582" expanded="true" signature="32518:32526" ph="·" />
-            <marker date="1575018176582" expanded="true" signature="32554:32585" ph="..." />
-            <marker date="1575018176582" expanded="true" signature="32586:32594" ph="·" />
-            <marker date="1575018176582" expanded="true" signature="32628:32659" ph="..." />
-            <marker date="1575018176582" expanded="true" signature="32660:32668" ph="·" />
-            <marker date="1575018176582" expanded="true" signature="32695:32701" ph=" " />
-            <marker date="1575018176582" expanded="true" signature="40547:40566" ph="..." />
-            <marker date="1575018176582" expanded="true" signature="40958:40977" ph="..." />
-            <marker date="1575018176582" expanded="true" signature="41119:41124" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="41176:41181" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="41233:41238" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="41291:41296" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="41348:41353" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="41406:41411" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="41463:41468" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="41521:41526" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="41578:41583" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="41636:41641" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="42151:42156" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="42230:42235" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="42318:42323" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="42377:42382" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="42572:42577" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="42890:42895" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="42914:42919" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="42999:43004" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="43243:43248" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="43376:43381" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="43425:43430" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="43512:43517" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="43561:43566" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="43701:43706" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="43783:43788" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="43865:43870" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="43918:43923" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="43983:43988" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="44087:44092" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="44152:44157" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="44256:44261" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="44322:44327" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="44419:44424" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="44469:44474" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="44557:44562" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="44606:44611" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="44693:44698" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="44742:44747" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="44830:44835" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="44880:44885" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="44969:44974" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="45018:45023" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="45106:45111" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="45155:45160" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="45243:45248" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="45293:45298" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="45382:45387" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="45431:45436" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="45519:45524" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="45569:45574" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="45658:45663" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="45707:45712" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="45795:45800" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="45845:45850" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="45929:45934" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="46257:46262" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="46327:46332" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="46453:46458" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="46556:46561" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="46626:46631" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="46728:46733" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="46795:46800" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="47066:47071" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="47115:47120" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="47201:47206" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="47251:47256" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="47339:47344" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="47388:47393" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="47476:47481" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="47525:47530" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="47613:47618" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="47694:47699" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="47735:47740" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="47759:47764" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="47904:47909" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="47916:47921" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="47968:48003" ph="..." />
-            <marker date="1575018176582" expanded="true" signature="48054:48085" ph="..." />
-            <marker date="1575018176582" expanded="true" signature="48103:48115" ph="..." />
-            <marker date="1575018176582" expanded="true" signature="51137:51142" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="51172:51177" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="51256:51261" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="51294:51299" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="52672:52677" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="54008:54013" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="55246:55251" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="56496:56501" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="57748:57753" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="58784:58789" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="59705:59710" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="60869:60874" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="62111:62116" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="126765:126770" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="126818:126823" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="126857:126862" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="126966:126971" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="127019:127024" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="127058:127063" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="127166:127171" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="127218:127223" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="127260:127265" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="127534:127539" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="127608:127613" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="127764:127769" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="127817:127822" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="127856:127861" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="127957:127962" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="128116:128121" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="128160:128165" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="128221:128226" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="128967:128972" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="129010:129015" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="129034:129039" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="129148:129153" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="129192:129197" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="129242:129247" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="129300:129305" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="129369:129374" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="129518:129523" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="129541:129546" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="129632:129637" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="129668:129673" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="129728:129733" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="129818:129823" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="129880:129885" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="130034:130039" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="130078:130083" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="130128:130133" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="130187:130192" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="130232:130237" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="130282:130287" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="130345:130350" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="130398:130403" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="130475:130480" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="130528:130533" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="130603:130608" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="130705:130710" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="130809:130814" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="130853:130858" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="130903:130908" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="130963:130968" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="131077:131082" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="131183:131188" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="131713:131718" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="131829:131834" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="131902:131907" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="132291:132296" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="132338:132343" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="132438:132443" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="132485:132490" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="132585:132590" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="132631:132636" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="132814:132819" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="132860:132865" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="132951:132956" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="132997:133002" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="133283:133288" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="133327:133332" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="133377:133382" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="133438:133443" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="133728:133733" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="133883:133888" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="133962:133967" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="134022:134027" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="134066:134071" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="134116:134121" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="134176:134181" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="134220:134225" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="134270:134275" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="134330:134335" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="134374:134379" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="134424:134429" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="134588:134593" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="134634:134639" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="134737:134742" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="134884:134889" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="134963:134968" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="135021:135026" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="135065:135070" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="135171:135176" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="158600:158605" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="165913:165918" ph="¥" />
-            <marker date="1575018176582" expanded="true" signature="166286:166291" ph="¥" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/novel/util.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -1273,20 +853,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/novel/pipelines.py">
+    <entry file="file://$PROJECT_DIR$/xiecheng.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <element signature="e#193#202#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/novel/middlewares.py">
+    <entry file="file://$PROJECT_DIR$/novel/spiders/testSpider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        <state relative-caret-position="114">
+          <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
           <folding />
         </state>
       </provider>
@@ -1294,27 +871,90 @@
     <entry file="file://$PROJECT_DIR$/novel/items.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="608">
-          <caret line="38" column="23" lean-forward="false" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+          <caret line="59" column="18" lean-forward="false" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
+          <folding>
+            <element signature="e#153#166#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/novel/proxy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/novel/agents.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1596">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/novel/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="158" column="0" lean-forward="false" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
+          <folding>
+            <element signature="e#239#1901#0" expanded="false" />
+            <element signature="e#1949#3592#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/novel/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="988">
+          <caret line="64" column="52" lean-forward="false" selection-start-line="64" selection-start-column="52" selection-end-line="64" selection-end-column="52" />
+          <folding>
+            <element signature="e#193#202#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/novel/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="47" column="31" lean-forward="false" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/novel/spiders/lagou.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="4" column="31" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/novel/spiders/jiPiao.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6">
-          <caret line="13" column="271" lean-forward="false" selection-start-line="13" selection-start-column="271" selection-end-line="13" selection-end-column="271" />
+        <state relative-caret-position="369">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
             <element signature="e#24#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/novel/spiders/zhihu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/jiPiao.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="1192" column="13" lean-forward="true" selection-start-line="1192" selection-start-column="13" selection-end-line="1192" selection-end-column="13" />
+        <state relative-caret-position="297">
+          <caret line="1161" column="23" lean-forward="true" selection-start-line="1161" selection-start-column="23" selection-end-line="1161" selection-end-column="23" />
           <folding>
-            <marker date="1575276331053" expanded="true" signature="4499:4504" ph="¥" />
+            <marker date="1575447989370" expanded="true" signature="4499:4504" ph="¥" />
           </folding>
         </state>
       </provider>

@@ -6,6 +6,7 @@
 # https://doc.scrapy.org/en/latest/topics/items.html
 
 import scrapy
+from scrapy import Field
 
 
 class NovelItem(scrapy.Item):
@@ -37,6 +38,30 @@ class JiPiaoItem(scrapy.Item):
     price=scrapy.Field()
     date=scrapy.Field()
     title=scrapy.Field()
+
+
+class ZhiHuItem(scrapy.Item):
+    id = Field()
+    name = Field()
+    sign = Field()
+    location = Field()
+    business = Field()
+    employment = Field()
+    position = Field()
+    education = Field()
+    education_extra = Field()
+    description = Field()
+    agree = Field()
+    thanks = Field()
+    asks = Field()
+    answers = Field()
+    posts = Field()
+    collections = Field()
+    logs = Field()
+    followees = Field()
+    followers = Field()
+    follow_topics = Field()
+
 
 
 
