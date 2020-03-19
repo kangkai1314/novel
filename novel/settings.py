@@ -66,7 +66,7 @@ SPIDER_MIDDLEWARES = {
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-    'novel.pipelines.JiPiaoPipeLines':300
+    'novel.pipelines.TestPipeLine':300
 }
 IMAGES_STORE = 'D:\ImageSpider'
 

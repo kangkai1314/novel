@@ -86,7 +86,13 @@ class RedisPipelin(object):
 
 
 
-from scrapy.conf import settings
+class TestPipeLine(object):
+
+    def process_item(self,item,spider):
+        print(item)
+        yield item
+
+
 class MongoPipeLine(object):
     def __init__(self):
         host=settings['MONGODB_HOST']

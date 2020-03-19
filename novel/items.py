@@ -15,6 +15,10 @@ class NovelItem(scrapy.Item):
     chapter_name=scrapy.Field()
     chapter_content=scrapy.Field()
 
+class TestItem(scrapy.Item):
+    name=scrapy.Field()
+
+
 
 class NovelPicItem(scrapy.Item):
 
