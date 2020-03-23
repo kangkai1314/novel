@@ -12,7 +12,7 @@ class NovelspiderSpider(scrapy.Spider):
     def parse(self, response):
         books=response.xpath('//*[@id="container"]/section/ul')
         for book in books:
-            print book
+            print(book)
             name=book.xpath('/section/ul/li/a')
 
 
